@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Performance Graph -->
+    <rect x="50" y="50" width="700" height="300" fill="#f8f9fa" stroke="#343a40"/>
+    
+    <!-- Axes -->
+    <line x1="100" y1="300" x2="700" y2="300" stroke="#343a40"/>
+    <line x1="100" y1="300" x2="100" y2="50" stroke="#343a40"/>
+    
+    <!-- Data Size Labels -->
+    <text x="200" y="320" text-anchor="middle">64MB</text>
+    <text x="350" y="320" text-anchor="middle">256MB</text>
+    <text x="500" y="320" text-anchor="middle">1GB</text>
+    <text x="650" y="320" text-anchor="middle">4GB</text>
+    
+    <!-- Throughput Labels -->
+    <text x="80" y="290" text-anchor="end">1</text>
+    <text x="80" y="215" text-anchor="end">5</text>
+    <text x="80" y="140" text-anchor="end">10</text>
+    <text x="80" y="65" text-anchor="end">15</text>
+    
+    <!-- Performance Lines -->
+    <polyline points="200,250 350,200 500,150 650,120" 
+              fill="none" stroke="#228be6" stroke-width="2"/>
+    <polyline points="200,270 350,230 500,180 650,150" 
+              fill="none" stroke="#40c057" stroke-width="2"/>
+    
+    <!-- Legend -->
+    <rect x="550" y="80" width="120" height="60" fill="#fff" stroke="#343a40"/>
+    <line x1="560" y1="95" x2="580" y2="95" stroke="#228be6" stroke-width="2"/>
+    <text x="590" y="100">Dictionary</text>
+    <line x1="560" y1="115" x2="580" y2="115" stroke="#40c057" stroke-width="2"/>
+    <text x="590" y="120">RLE</text>
+</svg>

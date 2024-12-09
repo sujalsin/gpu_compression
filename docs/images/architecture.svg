@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- System Architecture -->
+    <rect x="50" y="50" width="700" height="300" fill="#f8f9fa" stroke="#343a40"/>
+    
+    <!-- Input Data -->
+    <rect x="80" y="100" width="120" height="60" fill="#e9ecef" stroke="#495057"/>
+    <text x="140" y="135" text-anchor="middle" fill="#212529">Input Data</text>
+    
+    <!-- GPU Processing -->
+    <rect x="280" y="80" width="240" height="240" fill="#dee2e6" stroke="#495057"/>
+    <text x="400" y="110" text-anchor="middle" fill="#212529">GPU Processing</text>
+    
+    <!-- Dictionary Encoding -->
+    <rect x="300" y="130" width="200" height="40" fill="#adb5bd" stroke="#495057"/>
+    <text x="400" y="155" text-anchor="middle" fill="#fff">Dictionary Encoding</text>
+    
+    <!-- RLE -->
+    <rect x="300" y="180" width="200" height="40" fill="#adb5bd" stroke="#495057"/>
+    <text x="400" y="205" text-anchor="middle" fill="#fff">Run-Length Encoding</text>
+    
+    <!-- Stream Compaction -->
+    <rect x="300" y="230" width="200" height="40" fill="#adb5bd" stroke="#495057"/>
+    <text x="400" y="255" text-anchor="middle" fill="#fff">Stream Compaction</text>
+    
+    <!-- Output -->
+    <rect x="600" y="100" width="120" height="60" fill="#e9ecef" stroke="#495057"/>
+    <text x="660" y="135" text-anchor="middle" fill="#212529">Compressed Data</text>
+    
+    <!-- Arrows -->
+    <path d="M200,130 L280,130" fill="none" stroke="#495057" marker-end="url(#arrow)"/>
+    <path d="M520,130 L600,130" fill="none" stroke="#495057" marker-end="url(#arrow)"/>
+    
+    <!-- Arrow Marker -->
+    <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+            <path d="M0,0 L10,5 L0,10 Z" fill="#495057"/>
+        </marker>
+    </defs>
+</svg>

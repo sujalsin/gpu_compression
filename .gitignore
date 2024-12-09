@@ -1,0 +1,45 @@
+# Build directories
+build/
+bin/
+lib/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled files
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CUDA specific
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dependencies
+/third_party/
+
+# Debug files
+*.dSYM/
+
+# Log files
+*.log
